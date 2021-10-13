@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+*{font-family: 'Poppins', sans-serif;font-size: small;}
+.rale-way{
+    font-family: 'Raleway', sans-serif;
+}
+.nav-link{font-size: larger;}
+.back-shadow{box-shadow: -10px 20px 20px -10px rgba(225,225,225,0.5),0px 40px 40px 0px rgba(225,225,255,0.6);}
+.home{background-image: url('https://firebasestorage.googleapis.com/v0/b/breezela-e0c73.appspot.com/o/images%2Fbanner%2Fbanner3.jpg?alt=media&token=55e1b948-bd67-4882-a1b8-9a1c76e76952');background-position: center;background-size: 100% 100%;}
+.header{margin-top: 30px;margin-bottom: 30px;font-size: x-large;text-transform: capitalize;}
+.header::before{content: '';display: block;width: 60px;height: 5px;background-color:#4CAF50;
+}
+.header::after{content: '';display: block;width: 100px;height: 10px;background-color:#e91e63;}
+.sub{font-size: 2.5rem;font-weight: bold;text-transform: capitalize;}
+
+  
+  .card-slide {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 240px;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .card-slide .text-xl {
+    font-weight: 500;
+  }
+  
+  .card-slide .slide-header {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+  }
+  
+  .card-slide .slide-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .2s linear;
+  }
+  
+  .card-slide:hover .slide-header::before {
+    opacity: 1;
+  }
+  
+  .card-slide .slide-header .meta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease;
+  }
+  
+  .card-slide:hover .slide-header .meta {
+    bottom: 15px;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .card-slide .slide-header .meta a {
+    display: inline-block;
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    color: #6E807A;
+    box-shadow: 0 4px 8px rgba(154, 159, 151, 0.6);
+    transition: all .2s ease;
+  }
+  
+  .card-slide .slide-header .meta a:hover {
+    text-decoration: none;
+    background-color: #6E807A;
+    color: #fff;
+  }
+  
+  .card-slide .slide-header img {
+    width: 100%;
+  }
+  
+  .card-slide .body {
+    padding: 15px 20px;
+  }
+
+.leftbar:hover{overflow-y: scroll;}
+@media (max-width : 1000px){
+  .leftbar{position: fixed;left: 0px;width: fit-content;display: none;}
+  .content{position: relative;width: 100%;}
+}
+
+ .login-round, .createAccount input {border-radius: 25px;}
+
+.user-content{width: 100%;height: auto;}
+.getstarted input button {border-radius: 25px;}
+.getstarted input  {border-radius: 25px;}
+.must::after{content: '*';padding: 10px;color: red;font-size: x-large;display: inline;}
+.green-left-border, .left-green{border-left: 10px solid #4CAF50;}
+.deep-white{background-color:rgba(225,225,225,0.3) ;}
+.network-card{max-height: 150px;margin-top: 20px;}
+.secureVid{width: 100%;height: 100%;max-height: 300px;max-width: 250px;}
+.left-indigo{border-left: 15px solid #673ab7;}
+.circle-indigo{border: 15px solid #673ab7;}
+.light-black{color: rgba(0,0,0,0.7);}
+.getstarted div{text-align: left;}
+
+.border-right{border-right: 2px solid #ddd;}.border-left{border-left: 2px solid #ddd;}
+.border-top{border-top: 2px solid #ddd;}.border-bottom{border-bottom: 2px solid #ddd;}
+
+.body{width: 100%;padding: 0;margin: 0;position: relative;}
+.dashboard-side{position:fixed;top: 0;left: 0;height: 100vh;z-index: 10;padding: 20px;background-color: rgba(225,225,225,0.3);border-right: 2px solid #ddd;transition: 03s ease;overflow-y: scroll;}
+.content{position: absolute;right: 0px;height: 100vh;transition: 0.3s ease;}
+@media (max-width : 800px){
+
+}
+.dash-icon{background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);padding: 20px; width: 100%;height:100%}
+.dashboard-card{border-left: 5px solid #673ab7;width: 100%;}
+.vr{width: 5px;margin-left: 10px;}
+.login-card ,.signup-card{border-left: 10px solid #673ab7;max-width: 600px;min-width: 300px;}
+.graph{border-left: 2px solid #ddd;border-bottom: 2px solid #ddd;padding: 20px;}
+.year{border-top: 2px solid #ddd;padding-top: 10px;}
+.stickyNav{border-bottom: 2px solid #ddd;padding-top: 10px;}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  margin-right: 10px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  border-radius: 5px;
+}
+
+.side-icon{color: #f1f1f1;}
+.side-icon Link span {color: #f1f1f1;}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.partition-container{position: relative;width: 100%;height: 100%;}
+.side-partition{position: sticky;top: 0px;left: 0px;width: 20%;height: 100vh;overflow-y: scroll;}
+.content-partition{position: absolute;top: 0px;right: 0px;width: 80%;height: 100%;border-left: 2px solid #ddd;}
+
+@media(max-width:1000px){
+  .side-partition{position: relative;width: 100%;}
+  .content-partition{position: relative;width:100%}
+}
+
+.editcover{bottom: 10px;left: 10px;padding: 2px;border: 5px solid #ddd;}
+.cover{position: relative;height: 250px;}
+.coverimage{width: 100%;height: 100%;}
+
+.black-light{background-color: rgba(0,0,0,0.9);}
+
+.uploadbutton{background-color: rgba(0,0,0,0.9);color: #f1f1f1;}
+.video-card{padding: 0;margin: 0;max-height: 350px;min-height: 300px;}
+.video-text{padding: 5px;}
+.video-footer{padding: 5px;}
+.text-dark-light{color:rgba(225,225,225,0.7) ;}
+.video{max-height: 400px;}
+.share-modal{position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 15;}
+.videoLink{padding: 20px;width: 400px;overflow-x: scroll;background-color: #f1f1f1;border-left:5px solid #e91e63;}
+.profile{width:fit-content;height: fit-content;padding: 5px;border: 2px solid #673ab7;border-radius: 50%;transform: translateY(50%);}
+.profile-image{height: 120px;width: 120px;cursor: pointer;}
+.banner{background-size: 100% 100%;}
+.react-box{overflow-x: scroll;}
+.nav-profile{padding: 5px;border: 2px dashed  #e91e63;}
+.accountpopup{position: fixed;top: 20%;right: 20px;height: 95vh;width: fit-content;background-color:rgba(0,0,0,0.8);z-index: 20;}
+.hover-black-light:hover{background-color:rgba(0,0,0,0.5) ;}
+.cover::before{content: 'Choose your profile picture';position: absolute;top: 0;left: 0;bottom: 0;right: 0;height: 100%;width: 100%;background-color: black;opacity: 0.3;font-size: xx-large;text-transform: uppercase;font-weight: bold;}
